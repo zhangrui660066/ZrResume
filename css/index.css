@@ -29,15 +29,15 @@ html,body{
 }
 #main ul li:nth-child(1){
     background: url(../images/b.png) no-repeat;
-    /*background-size: 100% 100%;Èç¹ûÉè±¸¿í/¸ß²»µÈÓÚ±³¾°¿í/¸ß,±³¾°Í¼»á±äÐÎ*/
-    /* background-size: contain; °´ÕÕÔ­Ê¼µÄ¿í¸ß±ÈÀýËõ·Å,µ«ÊÇ¿ÉÄÜ»á³öÏÖ¿Õ°×*/
-    /*background-size:cover; /!*°´Ô­Ê¼±ÈÀýËõ·Å,»á¸²¸ÇÕû¸öÈÝÒ×,µ«ÊÇÓÐ¿ÉÄÜÏÔÊ¾²»È«*!/*/
+    /*background-size: 100% 100%;ï¿½ï¿½ï¿½ï¿½è±¸ï¿½ï¿½/ï¿½ß²ï¿½ï¿½ï¿½ï¿½Ú±ï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½*/
+    /* background-size: contain; ï¿½ï¿½ï¿½ï¿½Ô­Ê¼ï¿½Ä¿ï¿½ß±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½Ü»ï¿½ï¿½ï¿½Ö¿Õ°ï¿½*/
+    /*background-size:cover; /!*ï¿½ï¿½Ô­Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½á¸²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½Ð¿ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½È«*!/*/
     /*background-position: center ;*/
 
-   /* contain°´ÕÕ¿í¸ßÀï½ÏÐ¡ÕßËõ·Å,°´ÕÕ¿íÈ¥Ëõ·Å
-      containËõ·ÅÖµ = ÔªËØµÄ¿í/±³¾°Í¼µÄ¿í
-      cover °´ÕÕ¿í¸ßÀï½Ï´óÕßËõ·Å,°´ÕÕ¸ßÈ¥Ëõ·Å
-      coverËõ·ÅÖµ = ÔªËØµÄ¸ß/±³¾°Í¼µÄ¸ß
+   /* containï¿½ï¿½ï¿½Õ¿ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½Õ¿ï¿½È¥ï¿½ï¿½ï¿½ï¿½
+      containï¿½ï¿½ï¿½ï¿½Öµ = Ôªï¿½ØµÄ¿ï¿½/ï¿½ï¿½ï¿½ï¿½Í¼ï¿½Ä¿ï¿½
+      cover ï¿½ï¿½ï¿½Õ¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½Õ¸ï¿½È¥ï¿½ï¿½ï¿½ï¿½
+      coverï¿½ï¿½ï¿½ï¿½Öµ = Ôªï¿½ØµÄ¸ï¿½/ï¿½ï¿½ï¿½ï¿½Í¼ï¿½Ä¸ï¿½
    */
 
 
@@ -63,8 +63,8 @@ html,body{
     text-align: center;
 }
 .aa img{
-    animation: wobble  0.5s linear 2s  both;
-    -webkit-animation:wobble  0.5s linear 2s  both;
+    animation: wobble  1.5s linear 2s  both;
+    -webkit-animation:wobble  1.5s linear 2s  both;
 
 }
 
@@ -82,11 +82,11 @@ html,body{
     text-align: left;
 }
 
-.a0 p:nth-child(even){/*Å¼ÊýÐÐ*/
+.a0 p:nth-child(even){/*Å¼ï¿½ï¿½ï¿½ï¿½*/
     transform: translate(500px);
     -webkit-transform: translate(500px);
 }
-.a0 p:nth-child(odd){/*ÆæÊýÐÐ*/
+.a0 p:nth-child(odd){/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
     transform: translate(-500px);
     -webkit-transform: translate(-500px);
 }
@@ -269,7 +269,7 @@ html,body{
 }
 
 .a1>p{
-    font-family: "¿¬Ìå";
+    font-family: "ï¿½ï¿½ï¿½ï¿½";
     border-radius: 15px;
     font-size: 50px;
      color: #122b40;
@@ -368,12 +368,21 @@ html,body{
  margin-left: 150px;
 }
 #a2{
-    transform: rotateY(720deg);
-    -webkit-transform: rotateY(720deg);
     transition: 1s;
     -webkit-transition: 1s;
+   /* transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);*/
+    animation: musicMoveFrm 1s ;
 }
-
+@keyframes musicMoveFrm {
+    0% {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }}
 .a3 p {
    color:  #fff;
     font-size: 30px;
@@ -483,7 +492,7 @@ html,body{
     text-shadow: -1px -1px rgba(197, 223, 248,0.8),-2px -2px rgba(197, 223, 248,0.8),-3px -3px rgba(197, 223, 248,0.8),-4px -4px rgba(197, 223, 248,0.8),-5px -5px rgba(197, 223, 248,0.8),-6px -6px rgba(197, 223, 248,0.8);
 
     font-size: 180px;
-    font-family:¿¬Ìå;
+    font-family:ï¿½ï¿½ï¿½ï¿½;
     position: absolute;
     top: 40%;
     left: 50%;
